@@ -7,7 +7,6 @@ def line(katz_deli)
       names << "#{index + 1}. #{name}"
     end
   end
-  puts names
 end
 
 def take_a_number(katz_deli, name)
