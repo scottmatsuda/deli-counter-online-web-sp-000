@@ -14,7 +14,7 @@ end
 def take_a_number(katz_deli, name)
   if katz_deli.length < 1
     katz_deli.push(name)
-    puts "Welcome, #{name}. You are number 1 in line"
+    puts "Welcome, #{name}. You are number 1 in line."
   else
   puts katz_deli
     katz_deli.each_with_index do |name, index|
